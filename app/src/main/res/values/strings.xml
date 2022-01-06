@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Correio</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tela_de_carregamento">Tela de Carregamento</string>
+    <string name="surpreenda_seu_amor">Surpreenda seu amor</string>
+    <string name="send_message_and_gifts_text">Envie <b>mensagens</b> e <b>presentes</b> incríveis</string>
+    <string name="start_appCompatButton">COMEÇAR</string>
+    <string name="home_content_description_circle_image">Imagem circular com decorações de coração e comida desenhados</string>
+    <string name="you_ident_text">Você gostaria de se identificar?</string>
+    <string name="name_appcompatedittext_hint">Digite seu nome ou apelido</string>
+</resources>

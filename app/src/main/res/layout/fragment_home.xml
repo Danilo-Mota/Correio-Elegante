@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rooted"
+        android:background="#B73058"
+        tools:context=".feature_home.HomeFragment">
+
+        <View
+            android:id="@+id/down"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="@drawable/border_view"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/surprise_love_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="40sp"
+            android:layout_marginTop="85dp"
+            android:lineSpacingMultiplier="0.7"
+            android:textAlignment="center"
+            android:text="@string/surpreenda_seu_amor"
+            android:textColor="#2F394B"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/down" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/poppins_regular"
+            android:lineSpacingMultiplier="1.2"
+            android:text="@string/send_message_and_gifts_text"
+            android:textAlignment="center"
+            android:textColor="#BD8D8D8D"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/surprise_love_text" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/start_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:padding="16dp"
+            android:background="@drawable/start_button"
+            android:fontFamily="@font/roboto_bold"
+            android:textSize="18sp"
+            android:text="@string/start_appCompatButton"
+            android:elevation="10dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="18dp"
+            app:layout_constraintEnd_toEndOf="@+id/textView2"
+            app:layout_constraintStart_toStartOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="296dp"
+            android:layout_height="283dp"
+            app:layout_constraintBottom_toTopOf="@+id/down"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/image_top"
+            android:contentDescription="@string/home_content_description_circle_image"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
