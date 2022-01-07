@@ -4,23 +4,31 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.26296296296296295" />
+        <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/drawable/border_email_register.xml" value="0.25462962962962965" />
         <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/drawable/border_home_view.xml" value="0.26296296296296295" />
         <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/drawable/border_name_register.xml" value="0.26296296296296295" />
         <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/drawable/border_view.xml" value="0.26296296296296295" />
         <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/drawable/circle_home_image.xml" value="0.26296296296296295" />
+        <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/drawable/ic_champagne__lollipop.xml" value="0.2574074074074074" />
+        <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/drawable/ic_fast_food_group.xml" value="0.2574074074074074" />
+        <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/drawable/ic_fries_soda_group.xml" value="0.25462962962962965" />
+        <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/drawable/ic_group_1420.xml" value="0.2574074074074074" />
         <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26296296296296295" />
+        <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/drawable/ic_wine__cheese.xml" value="0.2574074074074074" />
         <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/drawable/shadow_loading.xml" value="0.25555555555555554" />
         <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/drawable/start_button.xml" value="0.26296296296296295" />
         <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/font/poppins.xml" value="0.26296296296296295" />
         <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/layout-v28/fragment_home.xml" value="0.24003623188405798" />
         <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/layout/bottom_sheet_layout.xml" value="0.24003623188405798" />
+        <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/layout/fragment_blank.xml" value="0.22554347826086957" />
         <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/layout/fragment_home.xml" value="0.264" />
         <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/layout/fragment_item_list_dialog_list_dialog.xml" value="0.24003623188405798" />
         <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/layout/fragment_item_list_dialog_list_dialog_item.xml" value="0.24003623188405798" />
         <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/layout/fragment_loading.xml" value="0.264" />
         <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/layout/fragment_succes.xml" value="0.22916666666666666" />
         <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/layout/register_fragment.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/layout/scroll_foods.xml" value="0.22554347826086957" />
       </map>
     </option>
   </component>
