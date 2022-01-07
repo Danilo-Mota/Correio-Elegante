@@ -6,7 +6,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import com.example.correio.R
 import com.example.correio.databinding.RegisterFragmentBinding
 
 class RegisterFragment : Fragment() {
@@ -22,7 +21,8 @@ class RegisterFragment : Fragment() {
 
         binding.startButton.setOnClickListener {
             findNavController().navigate(
-                RegisterFragmentDirections.actionRegisterFragmentToSuccesFragment()
+                RegisterFragmentDirections
+                    .actionRegisterFragmentToSuccesFragment()
             )
         }
 

@@ -171,6 +171,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:background="@drawable/border_email_register"
         android:inputType="textMultiLine|textEmailSubject"
+        android:maxLength="100"
         android:gravity="top"
         android:textSize="16sp"
         android:paddingTop="14dp"
