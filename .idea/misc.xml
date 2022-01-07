@@ -8,8 +8,11 @@
         <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/drawable/border_home_view.xml" value="0.26296296296296295" />
         <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/drawable/border_name_register.xml" value="0.26296296296296295" />
         <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/drawable/border_view.xml" value="0.26296296296296295" />
+        <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/drawable/border_view_succes.xml" value="0.22467532467532467" />
         <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/drawable/circle_home_image.xml" value="0.26296296296296295" />
         <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/drawable/ic_champagne__lollipop.xml" value="0.2574074074074074" />
+        <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/drawable/ic_check_icon.xml" value="0.22467532467532467" />
+        <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/drawable/ic_envelope.xml" value="0.22467532467532467" />
         <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/drawable/ic_fast_food_group.xml" value="0.2574074074074074" />
         <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/drawable/ic_fries_soda_group.xml" value="0.25462962962962965" />
         <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/drawable/ic_group_1420.xml" value="0.2574074074074074" />
@@ -26,8 +29,8 @@
         <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/layout/fragment_item_list_dialog_list_dialog.xml" value="0.24003623188405798" />
         <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/layout/fragment_item_list_dialog_list_dialog_item.xml" value="0.24003623188405798" />
         <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/layout/fragment_loading.xml" value="0.264" />
-        <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/layout/fragment_succes.xml" value="0.22916666666666666" />
-        <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/layout/register_fragment.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/layout/fragment_succes.xml" value="0.2" />
+        <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/layout/register_fragment.xml" value="0.176" />
         <entry key="..\:/Users/danil/Documents/Projeto/Correio/app/src/main/res/layout/scroll_foods.xml" value="0.22554347826086957" />
       </map>
     </option>

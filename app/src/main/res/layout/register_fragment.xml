@@ -14,38 +14,39 @@
         android:id="@+id/textView3"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="26dp"
         android:fontFamily="@font/roboto_bold"
         android:text="@string/you_ident_text"
+        android:layout_marginBottom="14dp"
         android:textColor="@color/white"
         android:textSize="20sp"
-        android:layout_marginTop="56dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginEnd="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/appCompatEditText"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/appCompatEditText"
         android:layout_width="0dp"
-        android:maxLines="1"
-        android:inputType="textPersonName"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:maxLength="50"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="26dp"
         android:background="@drawable/border_name_register"
         android:hint="@string/name_appcompatedittext_hint"
-        android:textColorHint="#732F394B"
+        android:inputType="textPersonName"
+        android:maxLength="50"
+        android:maxLines="1"
         android:padding="14dp"
+        android:layout_marginBottom="26dp"
+        android:textColorHint="#732F394B"
+        app:layout_constraintBottom_toTopOf="@+id/view"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <View
         android:id="@+id/view"
         android:layout_width="0dp"
-        android:layout_height="526dp"
+        android:layout_height="576dp"
         android:background="@drawable/border_view"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -56,8 +57,8 @@
         android:id="@+id/textView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="46dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="36dp"
         android:fontFamily="@font/poppins_bold"
         android:text="Escolha uma refeição abaixo"
         android:textColor="#2F394B"
@@ -82,9 +83,10 @@
             android:layout_height="wrap_content">
 
             <ImageView
+                android:id="@+id/imagem1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="32dp"
+                android:layout_marginStart="26dp"
                 android:src="@drawable/ic_fast_food_group" />
 
             <ImageView
@@ -113,36 +115,96 @@
         android:id="@+id/textView4"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="48dp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="26dp"
         android:fontFamily="@font/poppins_bold"
         android:text="Email"
         android:textColor="#2F394B"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/horizontal_scroll" />
+        app:layout_constraintTop_toBottomOf="@id/horizontal_scroll" />
 
     <EditText
+        android:id="@+id/email_edittext"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         android:background="@drawable/border_email_register"
         android:maxLines="1"
-        android:maxLength="50"
+        android:maxLength="45"
         android:paddingTop="14dp"
         android:paddingStart="14dp"
         android:paddingEnd="14dp"
         android:paddingBottom="10dp"
+        android:textSize="16sp"
+        android:inputType="textEmailAddress"
         android:hint="Digite o email dele ou dela"
         android:fontFamily="@font/poppins_regular"
         android:textColorHint="#732F394B"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginTop="3dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
-        android:layout_marginStart="29dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginTop="3dp"/>
+        app:layout_constraintTop_toBottomOf="@id/textView4"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="26dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Surpreenda"
+        android:textColor="#2F394B"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/email_edittext"/>
+
+    <EditText
+        android:id="@+id/surprise_edittext"
+        android:layout_width="0dp"
+        android:layout_height="90dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/border_email_register"
+        android:inputType="textMultiLine|textEmailSubject"
+        android:gravity="top"
+        android:textSize="16sp"
+        android:paddingTop="14dp"
+        android:paddingStart="14dp"
+        android:paddingEnd="14dp"
+        android:paddingBottom="10dp"
+        android:hint="Solte o verbo para seu/sua amado(a)"
+        android:fontFamily="@font/poppins_regular"
+        android:textColorHint="#732F394B"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginTop="3dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView5"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/start_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/start_button"
+        android:elevation="10dp"
+        android:fontFamily="@font/roboto_bold"
+        android:padding="16dp"
+        android:text="ENVIAR CORREIO"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/surprise_edittext"
+        app:layout_constraintStart_toStartOf="@+id/surprise_edittext"
+        app:layout_constraintTop_toBottomOf="@+id/surprise_edittext" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

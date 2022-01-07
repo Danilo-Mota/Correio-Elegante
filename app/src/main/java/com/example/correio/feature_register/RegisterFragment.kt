@@ -20,6 +20,11 @@ class RegisterFragment : Fragment() {
     ): View? {
         binding = RegisterFragmentBinding.inflate(layoutInflater, container, false)
 
+        binding.startButton.setOnClickListener {
+            findNavController().navigate(
+                RegisterFragmentDirections.actionRegisterFragmentToSuccesFragment()
+            )
+        }
 
         return binding.root
     }
