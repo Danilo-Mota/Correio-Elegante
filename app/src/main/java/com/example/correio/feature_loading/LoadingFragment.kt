@@ -7,6 +7,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.fragment.findNavController
 import com.example.correio.R
@@ -28,6 +29,7 @@ class LoadingFragment : Fragment() {
         handler.postDelayed({
             findNavController().navigate(
                 LoadingFragmentDirections.actionLoadingFragmentToHomeFragment())
+            Toast.makeText(context, "Bem-vindo(a)", Toast.LENGTH_SHORT).show()
         }, 4000)
 
         return binding.root
